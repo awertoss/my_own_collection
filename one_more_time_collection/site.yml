@@ -1,0 +1,10 @@
+---
+- name: test my_own_module
+  hosts: localhost
+  tasks:
+  - name: run module
+    my_own_module:
+      path: '/tmp/myfile.txt'
+      content: 'NEW Example text message'
+    register: testout
+
