@@ -1,0 +1,4 @@
+---
+# defaults file for single_task_role
+path: '/tmp/testfile.txt'
+content: 'NEW Example text message. Single Task Role'
